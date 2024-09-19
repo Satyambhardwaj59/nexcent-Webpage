@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    width: 120rem;
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+/******************************************/
+/********       Header          ***********/
+/******************************************/
+
+
+.header-div{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.header-div a{
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: #000;
+}
+
+#head-login{
+    color: #4CAF4F;
+}
+#head-btn{
+    width: 8rem;
+    height: 3rem;
+    background: #4CAF4F;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/******************************************/
+/********       Hero            ***********/
+/******************************************/
+
+.hero{
+   padding-top: 10rem;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-1{
+    padding-left: 8rem;
+}
+#hero-logo{
+    padding-left: 32rem;
+}
+#hero-h1{
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+}
+#hero-h1 span{
+    color: #4CAF4F;
+}
+
+#hero-p{
+    font-size: 1.4rem;
+    padding-bottom: 2.5rem;
+}
+#hero-btn{
+    height: 3.5rem;
+    max-width: 8rem;
+    background: #4CAF4F;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#dot{
+    display: flex;
+    padding-top: 25rem;
+    padding-left: 45rem;
+   cursor: pointer;
+}
+
+.hero-2{
+    padding-left: 5rem;
+}
+
+/******************************************/
+/********      Clients section  ***********/
+/******************************************/
+
+#client-h1{
+    text-align: center;
+    padding: 3rem;
+    font-size: 4rem;
+}
+#client-p{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+#client-img{
+    padding-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+/******************************************/
+/********    community section  ***********/
+/******************************************/
+
+#community-h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+#community-p{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+}
+.community-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem;
+}
+#community-div-img{
+    padding-left: 14rem;
+}
+#community-div-h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#community-div-p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/******************************************/
+/********    unlock section     ***********/
+/******************************************/
+
+.unlock{
+    display: flex;
+}
+.unlock-div img{
+    height: 30rem;
+    max-width: 40rem;
+   
+}
+
+.unlock-div2{
+    height: 30rem;
+    
+}
+
+#unlock-h1{
+    padding-top: 5rem;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+#unlock-p{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    line-height: 1.8rem;
+}
+#unlock-btn{
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.8rem;
+    background: #4CAF4F;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+/******************************************/
+/********  achievenents section ***********/
+/******************************************/
+
+.achievenents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 5rem;
+    height: 30rem;
+    
+}
+
+.achievenents-div2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.achievenents-div2-div{
+    display: flex;
+}
+
+#achievenents-div1-h1{
+    font-size: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+#achievenents-div1-h1-span{
+    color: #4CAF4F;
+}
+
+#achievenents-div1-h2{
+    font-size: 1.8rem;
+}
+
+#achievenents-img{
+    padding-right: 2rem;
+}
+#achievenents-img-h1{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+#achievenents-img-p{
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+
+/******************************************/
+/********  Calender section     ***********/
+/******************************************/
+
+.calender{
+    display: flex;
+}
+
+.calender-div2{
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+
+#calender-div2-h1{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+#calender-div2-p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+}
+#calender-div2-btn{
+    height: 4rem;
+    width: 12rem;
+    background: #4CAF4F;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+/******************************************/
+/********  Customer section     ***********/
+/******************************************/
+
+.customer{
+    display: flex;
+}
+#customer-div1-img{
+    margin: 5rem;
+}
+
+#customer-div2-p{
+    padding-top: 5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    padding-bottom: 2.5rem;
+}
+#customer-div2-h1{
+    font-size: 3rem;
+    color: #4CAF4F;
+    padding-bottom: 1.5rem;
+}
+#customer-div2-h2{
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+#customer-div2-pic{
+    padding-right: 4rem;
+}
+#customer-div2-a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #4CAF4F;
+    font-weight: 500;
+}
+
+/******************************************/
+/********  marketing section     ***********/
+/******************************************/
+
+.marketing{
+    background: #ebe6e6;
+}
+#marketing-h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+#marketing-p{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.marketing-frame{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 1.5rem;
+    padding-right: 5rem;
+}
+
+.frame-div{
+    padding-right: 3rem;
+}
+
+#frame-img{
+    border-radius: 2rem;
+    max-width: 35rem;
+}
+
+#frame-h1{
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+#frame-p{
+    color: #4CAF4F;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    font-weight: 700;
+   
+}
+
+/******************************************/
+/********   Last section        ***********/
+/******************************************/
+
+
+#last-sec-h1{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+}
+#last-sec-btn{
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    background: #4CAF4F;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+/******************************************/
+/********   Footer section      ***********/
+/******************************************/
+
+.footer-sec{
+    display: flex;
+    background: #17151b;
+    color: rgba(248, 250, 251, 0.505);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #fff;
+}
+
+.footer-div1{
+    padding-right: 15rem;
+    padding-left: 5rem;
+}
+
+#footer-div1-logo{
+    padding: 0 5rem 3rem;
+}
+#footer-div1-h2{
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+}
+#footer-div1-p{
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+}
+
+.footer-div1-media{
+    padding-left: 4rem;
+}
+
+#footer-div1-media-logo{
+    padding: 0 2rem 5rem 1rem;
+    cursor: pointer;
+}
+
+.footer-div2{
+    padding-right: 4rem;
+}
+.footer-div3{
+    padding-right: 4rem;
+}
+
+#footer-div2-h1{
+    font-size: 2.6rem;
+    padding-bottom: 2rem;
+}
+#footer-div2-ul{
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 2;
+    cursor: pointer;
+}
+
+#footer-div4-input{
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    background: #cbbbbb;
+}
+
+#footer-div4-btn{
+    height: 4rem;
+    border-radius: 1rem;
+    width: 4rem;
+    background: #cbbbbb;
+    cursor: pointer;
+}
+
